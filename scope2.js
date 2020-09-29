@@ -7,3 +7,5 @@ function getValue() {
 
 console.log(getValue());
 console.log(scope);
+
+//varの宣言なしでは全てがグローバル変数と認識される。
