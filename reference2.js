@@ -1,7 +1,7 @@
 var value = [1, 2, 4, 8, 16];
 
 function decrementValue(value) {
-  value--;
+  value.pop();
   return value;
 };
 
